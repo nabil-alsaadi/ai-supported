@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Supported | Human Verified | Accessibility Badge</title>
+    <meta name="description"
+        content="A lightweight transparency signal for accessibility-supported content using AI. Download the badge to show that while AI helped, a human verified the work.">
+    <meta name="keywords"
+        content="AI accessibility badge, dyslexia support, ADHD AI tools, assistive technology, human verified AI, neurodivergent creator">
+    <meta name="author" content="RealistSec">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai-supported.com/">
+    <meta property="og:title" content="AI Supported | Human Verified">
+    <meta property="og:description"
+        content="A lightweight transparency signal for accessibility-supported content using AI.">
+    <meta property="og:image" content="https://ai-supported.com/shared/images/realistSecLogoTransparent2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ai-supported.com/">
+    <meta property="twitter:title" content="AI Supported | Human Verified">
+    <meta property="twitter:description"
+        content="A lightweight transparency signal for accessibility-supported content using AI.">
+    <meta property="twitter:image" content="https://ai-supported.com/shared/images/realistSecLogoTransparent2.png">
+
+    <!-- JSON-LD for AI & Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "AI Supported",
+          "url": "https://ai-supported.com",
+          "description": "A lightweight transparency signal for accessibility-supported content using AI.",
+          "author": {
+            "@type": "Organization",
+            "name": "RealistSec",
+            "url": "https://RealistSec.com"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the AI Supported badge?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is a transparency signal for creators who use Artificial Intelligence as an assistive technology. It indicates that while AI aided the process, a human reviewed, verified, and takes responsibility for the final result."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a certification?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. It is a self-asserted claim similar to W3C WCAG conformance logos. The publisher is responsible for accuracy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who is this badge for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is for anyone using AI for accessibility needs, including Dyslexia, ADHD, or other functional needs, to bridge the gap between capability and output."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        teal: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* WCAG Focus Styles */
+        *:focus-visible {
+            outline: 3px solid #0f766e;
+            outline-offset: 2px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Accordion Marker Styling */
+        details>summary {
+            list-style: none;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        /* Tooltip Visibility Class (Toggled via JS) */
+        .tooltip-visible {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: translateY(0) !important;
+            pointer-events: auto !important;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- Skip to Main Content -->
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-teal-700 text-white p-4 rounded z-50">
+        Skip to main content
+    </a>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content" class="flex-grow">
+
+        <!-- HERO SECTION (Always Open) -->
+        <section class="bg-white border-b border-slate-200" aria-labelledby="hero-heading">
+            <div class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+                <div class="text-center mb-10">
+                    <span class="inline-block p-3 rounded-full bg-teal-50 text-3xl mb-4" role="img"
+                        aria-label="Asterisk and Sparkle Icon">* ✨</span>
+                    <h1 id="hero-heading" class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+                        What is this?
+                    </h1>
+                    <p class="text-xl md:text-2xl text-teal-700 font-medium leading-relaxed max-w-2xl mx-auto">
+                        A bridge between technology and humanity.
+                    </p>
+                </div>
+
+                <div class="prose prose-lg prose-slate mx-auto text-slate-600">
+                    <p>
+                        This project provides a simple, transparent signal for creators who use Artificial Intelligence
+                        as an assistive technology.
+                    </p>
+                    <p>
+                        For many—including those with Dyslexia, ADHD, or other functional needs—AI is not a shortcut to
+                        replace effort, but a bridge to enable capability. It unlocks doors that were previously closed.
+                    </p>
+                    <p>
+                        <strong>Our Mission:</strong> To destigmatize the use of assistive AI while maintaining human
+                        accountability. By displaying this badge, authors assert that while AI aided the process, a
+                        <strong>human reviewed, verified, and takes responsibility</strong> for the final result.
+                    </p>
+                    <div class="bg-slate-100 p-6 rounded-lg border-l-4 border-teal-500 mt-8">
+                        <p class="text-sm m-0">
+                            <strong>Note:</strong> This is a lightweight transparency signal, similar in spirit to the
+                            W3C’s WCAG conformance logos. It is a self-asserted claim where the publisher is responsible
+                            for accuracy. The badge itself is not a third‑party validation or certification.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACCORDION WRAPPER -->
+        <!-- THE "WHY" SECTION -->
+        <section class="bg-slate-50 border-b border-slate-200 py-6">
+            <details class="group max-w-4xl mx-auto">
+                <summary
+                    class="w-full md:w-auto mx-auto bg-slate-200 hover:bg-slate-300 rounded-full px-8 py-3 flex justify-center items-center gap-3 cursor-pointer list-none text-lg md:text-xl font-bold text-slate-900 transition-colors focus:ring-2 focus:ring-teal-500">
+                    <span>Why * ✨ ?</span>
+                    <span class="transition-transform duration-300 group-open:rotate-180 text-teal-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </span>
+                </summary>
+
+                <div class="px-6 pb-16 pt-8 animate-fadeIn">
+                    <div class="grid md:grid-cols-2 gap-8 items-start mb-8">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                            <h3 class="text-lg font-bold text-teal-700 mb-2">The Asterisk (*)</h3>
+                            <p class="text-slate-600">
+                                Universally recognized as a symbol for "see footnote" or "more details." It invites the
+                                reader to look deeper—specifically, to verify that a human has taken responsibility.
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                            <h3 class="text-lg font-bold text-teal-700 mb-2">The Sparkle (✨)</h3>
+                            <p class="text-slate-600">
+                                The emerging standard symbol for Artificial Intelligence. It represents the "magic" of
+                                augmentation that makes the work possible.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <p class="text-slate-600 mb-4">
+                            Don't want the full badge? You can simply use the text symbol in your footers:
+                        </p>
+                        <code class="bg-slate-800 text-teal-100 px-4 py-2 rounded-md font-mono text-sm select-all">
+                            * ✨ AI Supported, Human Verified.
+                        </code>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <!-- GENERATOR SECTION -->
+        <section class="bg-white border-b border-slate-200 py-6">
+            <details class="group max-w-4xl mx-auto" open>
+                <summary
+                    class="w-full md:w-auto mx-auto bg-slate-100 hover:bg-slate-200 border border-slate-200 rounded-full px-8 py-3 flex justify-center items-center gap-3 cursor-pointer list-none text-lg md:text-xl font-bold text-slate-900 transition-colors focus:ring-2 focus:ring-teal-500">
+                    <span>Get the Badge</span>
+                    <span class="transition-transform duration-300 group-open:rotate-180 text-teal-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </span>
+                </summary>
+
+                <div class="px-6 pb-16 pt-8">
+                    <p class="text-center text-slate-500 mb-10">Configure your optional text, preview, and download.</p>
+
+                    <div
+                        class="bg-white rounded-2xl border border-slate-200 shadow-lg overflow-hidden max-w-3xl mx-auto">
+
+                        <!-- Preview Area -->
+                        <div
+                            class="bg-slate-50 p-10 flex flex-col items-center justify-center border-b border-slate-200 min-h-[160px]">
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Live
+                                Preview</span>
+                            <img id="badgePreview" src="" alt="Badge Preview" class="h-8 shadow-sm">
+                        </div>
+
+                        <!-- Controls -->
+                        <div class="p-8">
+                            <!-- Input with Tooltip -->
+                            <div class="mb-8">
+                                <label for="customText" class="flex items-center text-sm font-bold text-slate-700 mb-2">
+                                    Optional Personal Text
+                                    <!-- Tooltip Trigger (Click based) -->
+                                    <button type="button" onclick="toggleTooltip(event, 'tooltip-text')"
+                                        class="ml-2 text-slate-400 hover:text-teal-600 focus:outline-none focus:text-teal-600"
+                                        aria-label="More information about optional text">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                            </path>
+                                        </svg>
+                                    </button>
+
+                                    <!-- Tooltip Content -->
+                                    <div id="tooltip-text"
+                                        class="absolute left-1/2 transform -translate-x-1/2 mt-8 w-64 p-3 bg-slate-900 text-white text-xs rounded-lg opacity-0 invisible transition-all duration-200 z-20 text-center pointer-events-none shadow-xl">
+                                        Popular examples:<br>
+                                        "Proud Dyslexic"<br>
+                                        "ADHD Supported"<br>
+                                        "Neurodivergent"<br>
+                                        "Accessibility First"
+                                        <!-- Arrow -->
+                                        <div
+                                            class="absolute bottom-full left-1/2 -translate-x-1/2 border-8 border-transparent border-b-slate-900">
+                                        </div>
+                                    </div>
+                                </label>
+                                <div class="relative"> <!-- Relative container for tooltip positioning context -->
+                                    <input type="text" id="customText" placeholder="e.g. Proud Dyslexic"
+                                        class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none transition-all">
+                                </div>
+                            </div>
+
+                            <!-- Action Buttons with Tooltips -->
+                            <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                                <div class="relative">
+                                    <div class="flex items-center gap-1 mb-1">
+                                        <button type="button" onclick="toggleTooltip(event, 'tooltip-png')"
+                                            class="text-slate-400 hover:text-teal-600 focus:outline-none focus:text-teal-600"
+                                            aria-label="More information about PNG format">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div id="tooltip-png"
+                                            class="absolute left-0 bottom-full mb-2 w-48 p-2 bg-slate-800 text-white text-xs rounded shadow-lg text-center opacity-0 invisible transition-all duration-200 z-20 pointer-events-none">
+                                            Best for Social Media, Word Docs, & PowerPoint.
+                                            <div
+                                                class="absolute top-full left-4 border-4 border-transparent border-t-slate-800">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button onclick="downloadPNG()"
+                                        class="w-full flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors focus:ring-4 focus:ring-teal-200">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">
+                                            </path>
+                                        </svg>
+                                        Download PNG
+                                    </button>
+                                </div>
+
+                                <div class="relative">
+                                    <div class="flex items-center gap-1 mb-1">
+                                        <button type="button" onclick="toggleTooltip(event, 'tooltip-svg')"
+                                            class="text-slate-400 hover:text-teal-600 focus:outline-none focus:text-teal-600"
+                                            aria-label="More information about SVG format">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                        <div id="tooltip-svg"
+                                            class="absolute left-0 bottom-full mb-2 w-48 p-2 bg-slate-800 text-white text-xs rounded shadow-lg text-center opacity-0 invisible transition-all duration-200 z-20 pointer-events-none">
+                                            Best for Websites & Code. Infinite scaling.
+                                            <div
+                                                class="absolute top-full left-4 border-4 border-transparent border-t-slate-800">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button onclick="downloadSVG()"
+                                        class="w-full flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-4 rounded-lg transition-colors focus:ring-4 focus:ring-slate-300">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                        </svg>
+                                        Download SVG
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Link Back Request -->
+                            <div class="mb-8 text-center">
+                                <p
+                                    class="text-xs text-slate-500 bg-slate-50 inline-block px-3 py-1 rounded-full border border-slate-100">
+                                    We'd appreciate if you hyperlink the image to <a href="https://ai-supported.com"
+                                        class="text-teal-600 hover:underline">ai-supported.com</a> ❤️
+                                </p>
+                            </div>
+
+                            <!-- Tabs for Code -->
+                            <div class="relative">
+                                <div class="flex items-center justify-between mb-2">
+                                    <div class="flex gap-4">
+                                        <!-- HTML FIRST NOW -->
+                                        <button id="tabHtml" onclick="setFormat('html')"
+                                            class="text-sm font-bold border-b-2 border-teal-500 text-teal-700 pb-1 transition-colors">HTML</button>
+                                        <button id="tabMarkdown" onclick="setFormat('markdown')"
+                                            class="text-sm font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-700 pb-1 transition-colors">Markdown</button>
+                                    </div>
+
+                                    <!-- Help Tooltip for Code (Click based) -->
+                                    <button type="button" onclick="toggleTooltip(event, 'tooltip-code')"
+                                        class="text-slate-400 hover:text-teal-600 focus:outline-none focus:text-teal-600"
+                                        aria-label="Code format information">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                            </path>
+                                        </svg>
+                                    </button>
+
+                                    <div id="tooltip-code"
+                                        class="absolute right-0 bottom-full mb-2 w-56 p-3 bg-slate-900 text-white text-xs rounded-lg opacity-0 invisible transition-all duration-200 z-20 shadow-xl pointer-events-none">
+                                        <strong class="block mb-1 text-teal-300">HTML:</strong> Websites, Blogs, Email
+                                        Signatures.<br>
+                                        <strong class="block mt-2 mb-1 text-teal-300">Markdown:</strong> GitHub READMEs,
+                                        Forums, Discord.
+                                    </div>
+                                </div>
+
+                                <div id="codeOutput" onclick="copyCode()"
+                                    class="bg-slate-900 text-teal-100 p-4 rounded-lg font-mono text-xs break-all cursor-pointer hover:bg-slate-800 transition-colors relative group"
+                                    role="button" tabindex="0" aria-label="Click to copy code">
+                                    <!-- Populated by JS -->
+                                </div>
+                                <p class="text-right text-xs text-slate-400 mt-1">Click code to copy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white py-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+
+                <!-- Left: RealistSec Logo -->
+                <div class="flex flex-col items-center md:items-start">
+                    <a href="https://RealistSec.com" target="_blank" rel="noopener noreferrer"
+                        class="opacity-90 hover:opacity-100 transition-opacity">
+                        <img src="/shared/images/realistSecLogoTransparent2.png"
+                            alt="RealistSec - Practical Security Solutions" class="h-12 w-auto object-contain">
+                    </a>
+                </div>
+
+                <!-- Center: Made with Love -->
+                <div class="text-center">
+                    <p class="text-slate-400 text-sm">
+                        Made with ❤️ by <a href="https://RealistSec.com"
+                            class="text-teal-400 hover:text-teal-300 underline underline-offset-4">RealistSec</a>
+                    </p>
+                    <p class="text-slate-600 text-xs mt-1">
+                        &copy;
+                        <script>document.write(new Date().getFullYear())</script> RealistSec. Open Source.
+                    </p>
+                </div>
+
+                <!-- Right: Badges -->
+                <div class="flex flex-col items-center md:items-end gap-3">
+
+                    <!-- OUR BADGE (Self-Referential) -->
+                    <a href="#" aria-label="AI Supported, Human Verified - Project Badge">
+                        <img src="https://img.shields.io/badge/*_%E2%9C%A8_AI_Supported-Human_Verified-14b8a6"
+                            alt="* ✨ AI Supported, Human Verified" height="20">
+                    </a>
+
+                    <!-- WCAG Badge -->
+                    <a href="https://www.w3.org/WAI/WCAG2AA-Conformance"
+                        title="Explanation of WCAG 2.1 Level AA Conformance" target="_blank" rel="noopener noreferrer">
+                        <img height="32" width="88" src="https://www.w3.org/WAI/wcag21/wcag2.1AA-v"
+                            alt="Level AA conformance, W3C WAI Web Content Accessibility Guidelines 2.1">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Canvas for PNG generation (Hidden) -->
+    <canvas id="renderCanvas" class="hidden"></canvas>
+
+    <!-- LOGIC -->
+    <script>
+        // --- CONSTANTS ---
+        const FIXED_LEFT = "* ✨ AI Supported";
+        const FIXED_RIGHT_BASE = "Human Verified";
+        const BRAND_COLOR = "14b8a6"; // Teal 500
+        const BASE_URL = "https://img.shields.io/badge/";
+        const LINK_URL = "https://ai-supported.com";
+
+        // --- STATE ---
+        let currentFormat = 'html'; // HTML IS NOW DEFAULT
+
+        // --- ELEMENTS ---
+        const customInput = document.getElementById('customText');
+        const badgePreview = document.getElementById('badgePreview');
+        const codeOutput = document.getElementById('codeOutput');
+        const tabMarkdown = document.getElementById('tabMarkdown');
+        const tabHtml = document.getElementById('tabHtml');
+
+        // --- TOOLTIP LOGIC (CLICK BASED) ---
+        function toggleTooltip(event, tooltipId) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            const tooltip = document.getElementById(tooltipId);
+            const isVisible = tooltip.classList.contains('tooltip-visible');
+
+            // Close all first
+            document.querySelectorAll('.tooltip-visible').forEach(el => {
+                el.classList.remove('tooltip-visible');
+            });
+
+            // Toggle current
+            if (!isVisible) {
+                tooltip.classList.add('tooltip-visible');
+            }
+        }
+
+        // Close tooltips when clicking outside
+        document.addEventListener('click', function (event) {
+            if (!event.target.closest('.tooltip-trigger') && !event.target.closest('button[onclick^="toggleTooltip"]')) {
+                document.querySelectorAll('.tooltip-visible').forEach(el => {
+                    el.classList.remove('tooltip-visible');
+                });
+            }
+        });
+
+        // --- TAB LOGIC ---
+        function setFormat(format) {
+            currentFormat = format;
+
+            // UI Updates
+            if (format === 'markdown') {
+                tabMarkdown.classList.add('border-teal-500', 'text-teal-700');
+                tabMarkdown.classList.remove('border-transparent', 'text-slate-500');
+
+                tabHtml.classList.remove('border-teal-500', 'text-teal-700');
+                tabHtml.classList.add('border-transparent', 'text-slate-500');
+            } else {
+                tabHtml.classList.add('border-teal-500', 'text-teal-700');
+                tabHtml.classList.remove('border-transparent', 'text-slate-500');
+
+                tabMarkdown.classList.remove('border-teal-500', 'text-teal-700');
+                tabMarkdown.classList.add('border-transparent', 'text-slate-500');
+            }
+
+            updateBadge();
+        }
+
+        // --- UPDATE FUNCTION ---
+        function updateBadge() {
+            const customText = customInput.value.trim();
+
+            // Logic: If custom text exists, append it with a separator
+            let fullRightText = FIXED_RIGHT_BASE;
+            if (customText) {
+                fullRightText += ` | ${customText}`;
+            }
+
+            // Shields.io Encoding
+            const safeLeft = FIXED_LEFT.replace(/-/g, '--').replace(/_/g, '__').replace(/\s/g, '_');
+            const safeRight = fullRightText.replace(/-/g, '--').replace(/_/g, '__').replace(/\s/g, '_');
+
+            const badgeUrl = `${BASE_URL}${encodeURIComponent(safeLeft)}-${encodeURIComponent(safeRight)}-${BRAND_COLOR}`;
+
+            // Update Preview
+            badgePreview.src = badgeUrl;
+
+            // Update Code Snippet based on Format
+            if (currentFormat === 'markdown') {
+                codeOutput.textContent = `[![${FIXED_LEFT} - ${fullRightText}](${badgeUrl})](${LINK_URL})`;
+            } else {
+                codeOutput.textContent = `<a href="${LINK_URL}" target="_blank">\n  <img src="${badgeUrl}" alt="${FIXED_LEFT} - ${fullRightText}">\n</a>`;
+            }
+        }
+
+        // --- DOWNLOAD PNG LOGIC ---
+        function downloadPNG() {
+            const canvas = document.getElementById('renderCanvas');
+            const ctx = canvas.getContext('2d');
+            const img = new Image();
+
+            img.crossOrigin = "Anonymous";
+            img.onload = function () {
+                const scale = 4;
+                canvas.width = img.width * scale;
+                canvas.height = img.height * scale;
+                ctx.scale(scale, scale);
+                ctx.drawImage(img, 0, 0);
+
+                const pngUrl = canvas.toDataURL("image/png");
+                const link = document.createElement("a");
+                link.href = pngUrl;
+                link.download = "ai-supported-badge.png";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            };
+
+            img.onerror = function () {
+                alert("Security Note: Right-click the preview image and 'Save Image As' to download.");
+            };
+
+            img.src = badgePreview.src;
+        }
+
+        // --- DOWNLOAD SVG LOGIC ---
+        async function downloadSVG() {
+            try {
+                const response = await fetch(badgePreview.src);
+                const text = await response.text();
+                const blob = new Blob([text], { type: "image/svg+xml" });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement("a");
+                link.href = url;
+                link.download = "ai-supported-badge.svg";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } catch (e) {
+                alert("Please right-click the image and 'Save As' (Browser security prevented auto-download).");
+            }
+        }
+
+        // --- COPY TO CLIPBOARD ---
+        function copyCode() {
+            const text = codeOutput.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalBg = codeOutput.classList.contains('bg-slate-900');
+                codeOutput.classList.remove('bg-slate-900');
+                codeOutput.classList.add('bg-teal-700');
+                setTimeout(() => {
+                    codeOutput.classList.remove('bg-teal-700');
+                    codeOutput.classList.add('bg-slate-900');
+                }, 200);
+            });
+        }
+
+        // --- LISTENERS ---
+        customInput.addEventListener('input', updateBadge);
+
+        // Initial Call
+        // Set HTML tab active visually on load
+        setFormat('html');
+
+        // Keyboard accessibility
+        codeOutput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                copyCode();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
