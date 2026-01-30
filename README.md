@@ -2,6 +2,8 @@
   <img src="./shared/images/realistSecLogoTransparent2.png" alt="RealistSec Logo" width="200">
 
   # * ✨ AI Supported | Human Verified
+  [![* ✨ AI Supported - Human Verified](https://img.shields.io/badge/*_%E2%9C%A8_AI_Supported-Human_Verified-14b8a6)](https://ai-supported.com)
+
 
   *A transparency signal for content created with the aid of Artificial Intelligence as an assistive technology.*
 </div>
@@ -54,4 +56,5 @@ Licensed under **MIT**. You are free to use this badge anywhere, forever.
   <sub>Made with ❤️ by <a href="https://realistsec.com">RealistSec</a></sub>
   <br>
   <a href="https://ai-supported.com"><img src="https://img.shields.io/badge/*_%E2%9C%A8_AI_Supported-Human_Verified-14b8a6" alt="AI Supported | Human Verified"></a>
+
 </div>
