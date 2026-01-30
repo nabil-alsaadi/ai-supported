@@ -219,27 +219,21 @@
 
         <!-- HERO SECTION WITH INLINE GENERATOR -->
         <section class="bg-white border-b border-slate-200" aria-labelledby="hero-heading">
-            <div class="max-w-6xl mx-auto px-6 py-12 md:py-20">
+            <div class="max-w-6xl mx-auto px-6 pt-6 pb-12 md:pt-12 md:pb-20">
 
                 <!-- Two Column Layout: Info + Generator -->
                 <div class="grid lg:grid-cols-2 gap-12 items-start">
 
                     <!-- LEFT COLUMN: Title, Logo & Intro Content -->
                     <div>
-                        <!-- Centered Logo Block (matching ai-supported-logo.png style) -->
-                        <div class="flex justify-center mb-8">
-                            <div class="inline-block p-6 rounded-full bg-teal-50 text-center">
-                                <span class="text-3xl" role="img" aria-label="Asterisk and Sparkle Icon">* ✨</span>
-                                <div class="mt-4">
-                                    <a href="https://ai-supported.com" target="_blank">
-                                        <img src="https://img.shields.io/badge/*_%E2%9C%A8_AI_Supported-Human_Verified-14b8a6"
-                                            alt="* ✨ AI Supported - Human Verified" class="mx-auto">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h1 id="hero-heading" class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
+                        <!-- Title and Logo -->
+                        <span class="inline-block p-3 rounded-full bg-teal-50 text-3xl mb-4 text-center" role="img"
+                            aria-label="Asterisk and Sparkle Icon">* ✨ </br>
+                            <a href="https://ai-supported.com" target="_blank">
+                                <img src="https://img.shields.io/badge/*_%E2%9C%A8_AI_Supported-Human_Verified-14b8a6"
+                                    alt="* ✨ AI Supported - Human Verified" class="mt-4 mb-6 ml-6 mr-6">
+                            </a> </span>
+                        <h1 id="hero-heading" class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
                             What is this?
                         </h1>
                         <p class="text-xl md:text-2xl text-teal-700 font-medium leading-relaxed mb-8">
@@ -285,28 +279,29 @@
                     </div>
 
                     <!-- RIGHT COLUMN: Badge Generator -->
-                    <div class="bg-white rounded-2xl border border-slate-200 shadow-lg overflow-hidden">
+                    <div class="bg-white rounded-2xl border border-slate-200 shadow-lg overflow-hidden mt-8 md:mt-32">
 
                         <!-- Generator Header -->
-                        <div class="bg-slate-100 px-6 py-4 border-b border-slate-200">
-                            <h2 class="text-lg font-bold text-slate-900 text-center">Get the Badge</h2>
-                            <p class="text-center text-slate-500 text-sm mt-1">Configure your optional text, preview,
+                        <div class="bg-slate-100 px-4 py-3 border-b border-slate-200">
+                            <h2 class="text-base font-bold text-slate-900 text-center">Get the Badge</h2>
+                            <p class="text-center text-slate-500 text-xs mt-0.5">Configure your optional text, preview,
                                 and download.</p>
                         </div>
 
                         <!-- Preview Area -->
                         <div
-                            class="bg-slate-50 p-8 flex flex-col items-center justify-center border-b border-slate-200 min-h-[120px]">
-                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Live
+                            class="bg-slate-50 p-4 flex flex-col items-center justify-center border-b border-slate-200 min-h-[100px]">
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">Live
                                 Preview</span>
-                            <img id="badgePreview" src="" alt="Badge Preview" class="h-8 shadow-sm">
+                            <img id="badgePreview" src="" alt="Badge Preview" class="h-6 shadow-sm">
                         </div>
 
                         <!-- Controls -->
-                        <div class="p-6">
+                        <div class="p-4">
                             <!-- Input with Tooltip -->
-                            <div class="mb-6">
-                                <label for="customText" class="flex items-center text-sm font-bold text-slate-700 mb-2">
+                            <div class="mb-4">
+                                <label for="customText"
+                                    class="flex items-center text-xs font-bold text-slate-700 mb-1.5">
                                     Optional Personal Text
                                     <!-- Tooltip Trigger (Click based) -->
                                     <button type="button" onclick="toggleTooltip(event, 'tooltip-text')"
@@ -335,12 +330,12 @@
                                 </label>
                                 <div class="relative"> <!-- Relative container for tooltip positioning context -->
                                     <input type="text" id="customText" placeholder="e.g. Proud Dyslexic"
-                                        class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none transition-all">
+                                        class="w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none transition-all">
                                 </div>
                             </div>
 
                             <!-- Action Buttons with Tooltips -->
-                            <div class="grid grid-cols-2 gap-3 mb-4">
+                            <div class="grid grid-cols-2 gap-2 mb-3">
                                 <div class="relative">
                                     <div class="flex items-center gap-1 mb-1">
                                         <button type="button" onclick="toggleTooltip(event, 'tooltip-png')"
@@ -361,8 +356,8 @@
                                         </div>
                                     </div>
                                     <button onclick="downloadPNG()"
-                                        class="w-full flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition-colors focus:ring-4 focus:ring-teal-200">
-                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        class="w-full flex items-center justify-center gap-1.5 bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-3 rounded-md text-sm transition-colors focus:ring-2 focus:ring-teal-200">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">
                                             </path>
@@ -391,8 +386,8 @@
                                         </div>
                                     </div>
                                     <button onclick="downloadSVG()"
-                                        class="w-full flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-4 rounded-lg transition-colors focus:ring-4 focus:ring-slate-300">
-                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        class="w-full flex items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-900 text-white font-bold py-2 px-3 rounded-md text-sm transition-colors focus:ring-2 focus:ring-slate-300">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                                         </svg>
@@ -402,7 +397,7 @@
                             </div>
 
                             <!-- Link Back Request -->
-                            <div class="mb-6 text-center">
+                            <div class="mb-4 text-center">
                                 <p
                                     class="text-xs text-slate-500 bg-slate-50 inline-block px-3 py-1 rounded-full border border-slate-100">
                                     We'd appreciate if you hyperlink the image to <a href="https://ai-supported.com"
