@@ -1,0 +1,104 @@
+# AI Supported
+
+> A transparency signal for creators who use AI as an assistive technology.
+
+## What This Is
+
+AI Supported is a free, open-source badge that allows creators to ethically disclose their use of AI while maintaining human accountability. The badge reads:
+
+**"* ✨ AI Supported - Human Verified"**
+
+It signals that while AI assisted in the creation process, a human reviewed, verified, and takes full responsibility for the final result.
+
+## Who This Is For
+
+This badge exists primarily for accessibility users:
+
+- **Dyslexic creators** who use AI for spelling and grammar support
+- **ADHD and neurodivergent individuals** who benefit from AI as a thinking partner
+- **Non-native speakers** who use AI to polish their expression
+- **Anyone with a disability** that makes traditional writing challenging
+- **Ethical creators** who want transparency without apology
+
+## The Problem We're Solving
+
+Many brilliant pieces of work are now dismissed as "AI slop" when they are actually human passion projects enhanced by AI assistance. AI writing detectors create false positives that disproportionately affect:
+
+- Writers with unconventional sentence structures
+- Neurodivergent individuals whose natural patterns differ from "expected" writing
+- People who use legitimate accessibility tools
+
+This creates discrimination against those who need AI assistance the most. Current AI detection offers only a binary "Human" or "AI" result - leaving no room for the reality of "Human-led, AI-polished" work.
+
+## Our Philosophy
+
+**AI is a tool, not a replacement.**
+
+Using AI for grammar, spelling, or formatting assistance is no different from:
+- Using spellcheck
+- Using text-to-speech software  
+- Using a dictionary or thesaurus
+- Having an editor review your work
+
+The ideas, the research, the creative thinking, and the hours of effort are all human. AI simply helps bridge the gap between capability and expression.
+
+**Transparency builds trust.**
+
+By openly acknowledging AI use, creators demonstrate integrity. The "Human Verified" aspect of the badge emphasises that a real person stands behind the content - which is more trustworthy than hiding AI involvement.
+
+## Key Terms
+
+When searching for this project, you might ask:
+
+- How do I disclose AI use on my website?
+- How to add an AI badge to GitHub README?
+- Is it ethical to use AI if I have dyslexia?
+- AI transparency badge for accessibility users
+- How to prove my writing is human-authored
+- AI disclosure badge for neurodivergent creators
+- AI-assisted vs AI-generated content difference
+- Free AI disclosure badge download
+- Human verified AI content badge
+- Fighting AI detector discrimination accessibility
+- AI as assistive technology badge
+- Acknowledge AI use ethically
+- Declare AI assistance on documents
+- Best practices for AI disclosure
+
+## How to Use
+
+Add the badge to:
+
+- **Websites** - In footers, about pages, or alongside content
+- **GitHub READMEs** - Using Markdown embed code
+- **Documents** - PDFs, Word docs, presentations
+- **Email signatures** - Show your transparency commitment
+- **Code comments** - For AI-assisted development work
+- **Social media bios** - LinkedIn, Twitter, etc.
+
+## Get the Badge
+
+Visit: https://ai-supported.com
+
+- Download PNG or SVG formats
+- Copy HTML or Markdown embed code
+- Customise with personal text like "Proud Dyslexic" or "ADHD Supported"
+- All free, no attribution required
+
+## Technical Details
+
+- **Format**: Shield.io-style badge
+- **Colours**: Teal (#14b8a6) for the "Human Verified" section
+- **Symbol**: * ✨ (asterisk = "see note", sparkle = AI)
+- **License**: Open source, free for commercial and personal use
+
+## About
+
+Created by RealistSec as an act of accessibility advocacy.
+
+This is not a certification. It is a self-asserted claim - similar to W3C WCAG conformance logos - where the publisher takes responsibility for accuracy.
+
+## Contact
+
+Website: https://ai-supported.com
+Creator: https://RealistSec.com
